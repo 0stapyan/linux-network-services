@@ -1,0 +1,8 @@
+[Unit]
+Description=Log the current ARP cache
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/arp-monitor.sh

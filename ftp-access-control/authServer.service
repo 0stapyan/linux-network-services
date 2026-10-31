@@ -1,0 +1,13 @@
+[Unit]
+Description=Authentication server for FTP access (port 7777)
+After=network-online.target vsftpd.service
+Wants=network-online.target
+
+[Service]
+# socat accepts connections and starts a separate authServer.sh process for each client
+ExecStart=/usr/bin/socat TCP4-LISTEN:7777,reuseaddr,fork EXEC:/usr/bin/authServer.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

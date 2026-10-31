@@ -1,0 +1,10 @@
+[Unit]
+Description=Run arp-monitor every 2 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=2min
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target

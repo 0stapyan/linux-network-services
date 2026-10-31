@@ -1,0 +1,20 @@
+Let It Be;The Beatles;Let It Be
+Yesterday;The Beatles;Help!
+Hey Jude;The Beatles;Hey Jude
+Bohemian Rhapsody;Queen;A Night at the Opera
+Don't Stop Me Now;Queen;Jazz
+We Will Rock You;Queen;News of the World
+Thriller;Michael Jackson;Thriller
+Billie Jean;Michael Jackson;Thriller
+Imagine;John Lennon;Imagine
+Heroes;David Bowie;Heroes
+Space Oddity;David Bowie;David Bowie
+Paint It Black;The Rolling Stones;Aftermath
+One;U2;Achtung Baby
+With or Without You;U2;The Joshua Tree
+Smells Like Teen Spirit;Nirvana;Nevermind
+Come as You Are;Nirvana;Nevermind
+Wish You Were Here;Pink Floyd;Wish You Were Here
+Comfortably Numb;Pink Floyd;The Wall
+Hotel California;Eagles;Hotel California
+Stairway to Heaven;Led Zeppelin;Led Zeppelin IV

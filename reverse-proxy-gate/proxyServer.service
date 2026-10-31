@@ -1,0 +1,13 @@
+[Unit]
+Description=Gatekeeper proxy in front of Apache (port 80)
+After=apache2.service network-online.target
+Requires=apache2.service
+
+[Service]
+# socat accepts connections and starts a separate proxyServer.sh process for each request
+ExecStart=/usr/bin/socat TCP4-LISTEN:80,reuseaddr,fork EXEC:/usr/local/bin/proxyServer.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
